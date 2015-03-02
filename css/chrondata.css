@@ -31,7 +31,16 @@ body {
     background-color: #eee;
     font-size: 16px;
     font-family: 'Heuristica', 'Times New Roman', Times, serif;
-    
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #fff;
+}
+.logo {
+    max-width: 380px;
 }
 p {
     line-height: 1.7em;
@@ -57,12 +66,6 @@ h2 a, h2 a:hover, h2 a:active, h2 a:focus {
     color: #000;
 }
 
-.container {
-    max-width: 600px;
-    margin: auto;
-    background-color: #fff;
-}
-
 ul {
     font-size: 16px;
 }
@@ -74,23 +77,27 @@ li {
     display: block;
     color: #000;
     text-decoration: none;
-    border: 1px solid #fff;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
 }
 .di-project a:hover,
 .di-project a:active,
 .di-project a:focus {
-    /*opacity: .8;*/
     text-decoration: none;
-    border: 1px solid #666;
+    border: 1px solid #ccc;
 }
 
 .di-ppl {
     list-style: none outside;
     padding: 0;
+    font-family: 'Roboto Condensed', 'Helvetica', Arial, sans-serif;
 }
 .di-projects-list {
     list-style: none outside;
     padding: 0;
+}
+.di-project img {
+    padding: 5px;
 }
 figure {
     margin-bottom: 1em;
