@@ -1,113 +1,187 @@
-@font-face {
-  font-family: 'Heuristica Bold';
-  src: url('../fonts/heuristica-bold-webfont.eot');
-  src: url('../fonts/heuristica-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/heuristica-bold-webfont.woff') format('woff'), url('../fonts/heuristica-bold-webfont.ttf') format('truetype'), url('../fonts/heuristica-bold-webfont.svg#heuristicabold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Heuristica Italic';
-  src: url('../fonts/heuristica-italic-webfont.eot');
-  src: url('../fonts/heuristica-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/heuristica-italic-webfont.woff') format('woff'), url('../fonts/heuristica-italic-webfont.ttf') format('truetype'), url('../fonts/heuristica-italic-webfont.svg#heuristicaitalic') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Heuristica';
-  src: url('../fonts/heuristica-regular-webfont.eot');
-  src: url('../fonts/heuristica-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/heuristica-regular-webfont.woff') format('woff'), url('../fonts/heuristica-regular-webfont.ttf') format('truetype'), url('../fonts/heuristica-regular-webfont.svg#heuristicaregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Heuristica Bold Italic';
-  src: url('../fonts/heuristica-bolditalic-webfont.eot');
-  src: url('../fonts/heuristica-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/heuristica-bolditalic-webfont.woff') format('woff'), url('../fonts/heuristica-bolditalic-webfont.ttf') format('truetype'), url('../fonts/heuristica-bolditalic-webfont.svg#heuristicabolditalic') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-    background-color: #eee;
-    font-size: 16px;
-    font-family: 'Heuristica', 'Times New Roman', Times, serif;
-}
-.container {
-    max-width: 600px;
-    margin: auto;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-color: #fff;
-}
-.logo {
-    max-width: 380px;
-}
-p {
-    line-height: 1.5em;
-    margin: 0 auto 1.3em;
-}
-a {
-    color: #009dbf;
-    text-decoration: none;
-    outline: 0;
-}
-a:hover, a:active, a:focus {
-    color: #00c7f2;
-    text-decoration: underline;
-    outline: 0;
-}
+  background-color: #f7f7f7;
+  font-size: 16px;
+  color: #3E5266;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif; }
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px; } }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    font-family: 'Roboto Condensed', 'Helvetica', Arial, sans-serif;
-}
-h1 a, h1 a:hover, h1 a:active, h1 a:focus,
-h2 a, h2 a:hover, h2 a:active, h2 a:focus {
-    color: #000;
-}
+.header {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  text-align: center;
+  text-transform: uppercase; }
+  .header .sm {
+    font-size: 0.7em; }
+  @media (max-width: 480px) {
+    .header {
+      margin-top: 10%;
+      margin-bottom: 10%; } }
+
+.intro p {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  margin-bottom: 0; }
+
+.container {
+  position: relative;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.logo {
+  max-width: 380px;
+  margin: auto; }
+  @media (max-width: 480px) {
+    .logo {
+      max-width: 90%; } }
+
+section {
+  margin-bottom: 4%; }
+  @media (max-width: 480px) {
+    section {
+      margin-bottom: 10%; } }
+
+p {
+  line-height: 1.5em;
+  margin: 0 auto 1.3em; }
+
+a {
+  color: #6f91b2;
+  text-decoration: none;
+  outline: 0; }
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+  outline: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Oswald', 'Helvetica', Arial, sans-serif; }
+
+h1 a,
+h1 a:hover,
+h1 a:active,
+h1 a:focus,
+h2 a,
+h2 a:hover,
+h2 a:active,
+h2 a:focus {
+  color: #000; }
+
+.hed {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 400;
+  text-align: center;
+  margin: 1% auto;
+  padding: 1% 0; }
 
 ul {
-    font-size: 16px;
-}
+  font-size: 16px; }
+
 li {
-    margin-bottom: .5em;
-    line-height: 1.5em;
-}
+  margin-bottom: .5em;
+  line-height: 1.5em; }
+
+.di-projects-list .proj {
+  box-shadow: 1px 1px 1px #cacaca;
+  background: #fff;
+  margin: 1em auto;
+  padding: 1.5em 2em 0.5em; }
+.di-projects-list a {
+  cursor: pointer;
+  color: #3E5266;
+  display: block; }
+  .di-projects-list a:hover {
+    color: #3E5266;
+    text-decoration: none; }
 
 .di-project a {
-    display: block;
-    color: #000;
-    text-decoration: none;
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-}
-.di-project a:hover,
-.di-project a:active,
-.di-project a:focus {
-    text-decoration: none;
-    border: 1px solid #ccc;
-}
+  display: inline-block;
+  text-decoration: none; }
+.di-project p {
+  font: 300 1em 'Source Sans Pro', 'Helvetica', Arial, sans-serif; }
+@media (max-width: 480px) {
+  .di-project h4 {
+    font-size: 14px; } }
+
+.message {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 3%; }
 
 .di-ppl {
-    list-style: none outside;
-    padding: 0;
-    font-family: 'Roboto Condensed', 'Helvetica', Arial, sans-serif;
-}
-.di-projects-list {
-    list-style: none outside;
-    padding: 0;
-}
-.di-project img {
-    padding: 5px;
-}
-figure {
-    margin-bottom: 1em;
-}
-figcaption {
-    font: 300 14px 'Roboto Condensed', 'Helvetica', Arial, sans-serif;
-}
-figcaption p {
-    margin-top: .5em;
-    line-height: 1.3em;
+  list-style: none outside;
+  padding: 0;
+  font-family: 'Roboto Condensed', 'Helvetica', Arial, sans-serif; }
+  .di-ppl .person {
+    text-align: center;
+    vertical-align: top;
+    margin-top: 2em; }
+    @media (max-width: 480px) {
+      .di-ppl .person {
+        font-size: 0.9em; } }
+    .di-ppl .person img {
+      border-radius: 100%; }
+      @media (max-width: 480px) {
+        .di-ppl .person img {
+          width: 100px; } }
+    .di-ppl .person .nm {
+      margin-top: 5px;
+      font-weight: 700;
+      font-size: 1.1em;
+      width: 100%; }
+    .di-ppl .person .title {
+      width: 100%;
+      font-weight: 300; }
 
-}
+.contact {
+  text-align: center;
+  margin-bottom: 10%; }
+  .contact div {
+    padding: 1em 0; }
+  .contact .media-inline {
+    position: relative; }
+    .contact .media-inline a {
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 2em; }
+      @media (max-width: 480px) {
+        .contact .media-inline a {
+          padding: 0 1em; } }
+
+footer {
+  background: #3E5266;
+  color: #fff;
+  padding: 2em 15px;
+  overflow: hidden; }
+  footer p {
+    margin: 0; }
+  footer .sites,
+  footer .address {
+    margin-top: 0.3em; }
+  footer .sites {
+    float: left; }
+    footer .sites a {
+      display: block; }
+    footer .sites img {
+      max-width: 400px;
+      margin-bottom: 0.5em; }
+  footer .address {
+    float: right;
+    color: #f1f1f1;
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: 300; }
+
+/*# sourceMappingURL=chrondata.css.map */
