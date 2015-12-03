@@ -7,8 +7,12 @@ body {
     body {
       font-size: 14px; } }
 
+.container-fluid {
+  max-width: 1500px;
+  margin: auto; }
+
 .header {
-  margin-top: 4%;
+  margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
   text-transform: uppercase; }
@@ -20,9 +24,10 @@ body {
       margin-bottom: 10%; } }
 
 .intro p {
-  font-family: 'Source Sans Pro';
-  font-weight: 300;
-  margin-bottom: 0; }
+  font: 300 17px 'Source Sans Pro';
+  line-height: 1.5em;
+  margin-bottom: 0;
+  text-align: justify; }
 
 .container {
   position: relative;
@@ -79,17 +84,13 @@ h2 a:focus {
 
 .hed {
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 400;
   text-align: center;
   margin: 1% auto;
   padding: 1% 0; }
 
-ul {
-  font-size: 16px; }
-
 li {
-  margin-bottom: .5em;
   line-height: 1.5em; }
 
 .di-projects-list .proj {
@@ -112,7 +113,9 @@ li {
   font: 300 1em 'Source Sans Pro', 'Helvetica', Arial, sans-serif; }
 @media (max-width: 480px) {
   .di-project h4 {
-    font-size: 14px; } }
+    font-size: 16px; } }
+.di-project figure {
+  margin-bottom: 15px; }
 
 .message {
   text-align: center;
@@ -134,7 +137,7 @@ li {
       border-radius: 100%; }
       @media (max-width: 480px) {
         .di-ppl .person img {
-          width: 100px; } }
+          width: 115px; } }
     .di-ppl .person .nm {
       margin-top: 5px;
       font-weight: 700;
@@ -143,6 +146,21 @@ li {
     .di-ppl .person .title {
       width: 100%;
       font-weight: 300; }
+    .di-ppl .person .fa-twitter, .di-ppl .person .fa-envelope {
+      cursor: pointer;
+      vertical-align: middle; }
+    .di-ppl .person .fa-twitter {
+      font-size: 22px; }
+    .di-ppl .person .fa-envelope {
+      font-size: 18px;
+      padding-left: 10px;
+      margin-left: 4px;
+      border-left: 1px solid #ccc; }
+
+.di-positions {
+  box-shadow: 1px 1px 1px #cacaca;
+  background: #fff;
+  padding: 1.5em; }
 
 .contact {
   text-align: center;
@@ -172,16 +190,81 @@ footer {
     margin-top: 0.3em; }
   footer .sites {
     float: left; }
+    @media (max-width: 480px) {
+      footer .sites {
+        float: none; } }
     footer .sites a {
       display: block; }
     footer .sites img {
       max-width: 400px;
       margin-bottom: 0.5em; }
+      @media (max-width: 480px) {
+        footer .sites img {
+          width: 100%; } }
   footer .address {
     float: right;
     color: #f1f1f1;
     text-align: right;
     font-size: 0.9em;
     font-weight: 300; }
+    @media (max-width: 480px) {
+      footer .address {
+        float: none;
+        text-align: center; } }
+
+/** IMAGES */
+.portfolio-image {
+  height: 205px;
+  width: 900px;
+  margin: auto;
+  background-repeat: no-repeat; }
+  @media (max-width: 768px) {
+    .portfolio-image {
+      background-position: top left; } }
+
+#giving-trends {
+  background-image: url("../img/projects/nfg.png"); }
+  @media (max-width: 768px) {
+    #giving-trends {
+      background-position: top center !important; } }
+
+#endowments {
+  background-image: url("../img/projects/endowments.png"); }
+
+#ncaa {
+  background-image: url("../img/projects/ncaa.png"); }
+  @media (max-width: 768px) {
+    #ncaa {
+      background-position: top center !important; } }
+
+#moocs {
+  background-image: url("../img/projects/moocs.png"); }
+  @media (max-width: 768px) {
+    #moocs {
+      background-position: 49% !important; } }
+  @media (max-width: 480px) {
+    #moocs {
+      background-position: 76% !important; } }
+
+#hag {
+  background-image: url("../img/projects/hag.png"); }
+
+#alcohol {
+  background-image: url("../img/projects/alcohol.png"); }
+
+#datachron {
+  background-image: url("../img/projects/datachron.png"); }
+
+#minwage {
+  background-image: url("../img/projects/minwage.png"); }
+
+#execcomp {
+  background-image: url("../img/projects/execcomp.png"); }
+
+#phil400 {
+  background-image: url("../img/projects/phil400.png"); }
+  @media (max-width: 768px) {
+    #phil400 {
+      background-position: top center !important; } }
 
 /*# sourceMappingURL=chrondata.css.map */
