@@ -119,8 +119,14 @@ li {
     .proj {
         box-shadow: 1px 1px 1px #cacaca;
         background: #fff;
-        margin: 1em auto;
+        height: 380px;
+        margin-bottom: 1em;
         padding: 1.5em 2em 0.5em;
+        margin-left: 5.5%;
+        @media (max-width: 768px) {
+            margin-left: 0;
+        }
+        
     }
     a {
         cursor: pointer;
@@ -277,29 +283,28 @@ footer {
         background-position: top left;
     }
 }
+#facultydiversity {
+    background-image: url("../img/projects/facultydiversity.png");
+    background-position: top center;
+}
+#titleix {
+    background-image: url("../img/projects/titleix.png");
+    background-position: top center;
+}
 #giving-trends {
     background-image: url("../img/projects/nfg.png");
-    @media (max-width: 768px) {
-        background-position: top center !important;
-    }
+    background-position: top center !important;
 }
 #endowments {
     background-image: url("../img/projects/endowments.png");
 }
 #ncaa {
     background-image: url("../img/projects/ncaa.png");
-    @media (max-width: 768px) {
-        background-position: top center !important;
-    }
+    background-position: top center !important;
 }
 #moocs {
     background-image: url("../img/projects/moocs.png");
-     @media (max-width: 768px) {
-        background-position: 49% !important;
-    }
-    @media (max-width: 480px) {
-        background-position: 76% !important;
-    }
+    background-position: 76% !important;
 }
 #hag {
     background-image: url("../img/projects/hag.png");
@@ -312,13 +317,17 @@ footer {
 }
 #minwage {
     background-image: url("../img/projects/minwage.png");
+    background-position: top right;
 }
 #execcomp {
     background-image: url("../img/projects/execcomp.png");
 }
 #phil400 {
     background-image: url("../img/projects/phil400.png");
-    @media (max-width: 768px) {
-        background-position: top center !important;
-    }
+    background-position: top center !important;
 }
+#phil-50 {
+    background-image: url("../img/projects/phil50.png");
+    background-position: top center;
+}
+
