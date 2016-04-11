@@ -100,7 +100,7 @@ h2 a:focus {
 li {
   line-height: 1.5em; }
 
-.di-projects-list .proj {
+.di-projects-list .proj, .di-alumni-list .proj {
   box-shadow: 1px 1px 1px #cacaca;
   background: #fff;
   height: 380px;
@@ -108,15 +108,30 @@ li {
   padding: 1.5em 2em 0.5em;
   margin-left: 5.5%; }
   @media (max-width: 768px) {
-    .di-projects-list .proj {
+    .di-projects-list .proj, .di-alumni-list .proj {
       margin-left: 0; } }
-.di-projects-list a {
+.di-projects-list .solid-bkg, .di-alumni-list .solid-bkg {
+  box-shadow: 1px 1px 1px #cacaca;
+  background: #fff;
+  padding: 1.5em; }
+.di-projects-list a, .di-alumni-list a {
   cursor: pointer;
   color: #3E5266;
   display: block; }
-  .di-projects-list a:hover {
+  .di-projects-list a:hover, .di-alumni-list a:hover {
     color: #3E5266;
     text-decoration: none; }
+
+.di-alumni-list {
+  text-align: center; }
+  .di-alumni-list p {
+    margin: 0.5em;
+    font-weight: 300; }
+  .di-alumni-list a:hover {
+    text-decoration: underline; }
+  @media (max-width: 480px) {
+    .di-alumni-list {
+      text-align: left; } }
 
 .di-project a {
   display: inline-block;
@@ -264,7 +279,8 @@ footer {
   background-image: url("../img/projects/alcohol.png"); }
 
 #datachron {
-  background-image: url("../img/projects/datachron.png"); }
+  background-image: url("../img/projects/datachron.png");
+  background-position: top center; }
 
 #minwage {
   background-image: url("../img/projects/minwage.png");

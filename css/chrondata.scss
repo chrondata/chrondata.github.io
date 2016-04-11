@@ -115,7 +115,7 @@ li {
     line-height: 1.5em;
 }
 
-.di-projects-list {
+.di-projects-list, .di-alumni-list {
     .proj {
         box-shadow: 1px 1px 1px #cacaca;
         background: #fff;
@@ -128,6 +128,11 @@ li {
         }
         
     }
+    .solid-bkg {
+        box-shadow: 1px 1px 1px #cacaca;
+        background: #fff;
+        padding: 1.5em;
+    }
     a {
         cursor: pointer;
         color: #3E5266;
@@ -137,8 +142,21 @@ li {
             text-decoration: none;
         }
     }
+    
 }
-
+.di-alumni-list {
+    p {
+        margin: 0.5em;
+        font-weight: 300;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    text-align: center;
+     @media (max-width: 480px) {
+        text-align: left;
+     }
+}
 .di-project {
     a {
         display: inline-block;
@@ -314,6 +332,7 @@ footer {
 }
 #datachron {
     background-image: url("../img/projects/datachron.png");
+    background-position: top center;
 }
 #minwage {
     background-image: url("../img/projects/minwage.png");
