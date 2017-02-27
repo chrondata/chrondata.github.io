@@ -49,10 +49,10 @@ body {
 }
 
 .logo {
-    max-width: 380px;
+    max-width: 600px;
     margin: auto;
     @media (max-width: 480px) {
-        max-width: 90%;
+        max-width: 325px;
     }
 }
 
@@ -123,7 +123,8 @@ li {
         margin-bottom: 1em;
         padding: 1.5em 2em 0.5em;
         margin-left: 5.5%;
-        @media (max-width: 768px) {
+        overflow: hidden;
+        @media (max-width: 480px) {
             margin-left: 0;
         }
         
@@ -294,7 +295,7 @@ footer {
 /** IMAGES */
 .portfolio-image {
     height: 205px;
-    width: 900px;
+    width: 363px;
     margin: auto;
     background-repeat: no-repeat;
     @media (max-width: 768px) {
@@ -303,26 +304,15 @@ footer {
 }
 #facultydiversity {
     background-image: url("../img/projects/facultydiversity.png");
-    background-position: top center;
 }
 #titleix {
     background-image: url("../img/projects/titleix.png");
-    background-position: top center;
 }
 #giving-trends {
     background-image: url("../img/projects/nfg.png");
-    background-position: top center !important;
-}
-#endowments {
-    background-image: url("../img/projects/endowments.png");
-}
-#ncaa {
-    background-image: url("../img/projects/ncaa.png");
-    background-position: top center !important;
 }
 #moocs {
     background-image: url("../img/projects/moocs.png");
-    background-position: 76% !important;
 }
 #hag {
     background-image: url("../img/projects/hag.png");
@@ -332,21 +322,29 @@ footer {
 }
 #datachron {
     background-image: url("../img/projects/datachron.png");
-    background-position: top center;
 }
 #minwage {
     background-image: url("../img/projects/minwage.png");
-    background-position: top right;
 }
 #execcomp {
     background-image: url("../img/projects/execcomp.png");
 }
 #phil400 {
     background-image: url("../img/projects/phil400.png");
-    background-position: top center !important;
 }
 #phil-50 {
     background-image: url("../img/projects/phil50.png");
-    background-position: top center;
+}
+#digitalera {
+    background-image: url("../img/projects/tech50.png");
+}
+#students50 {
+    background-image: url("../img/projects/students50.png");
+}
+#dafs {
+    background-image: url("../img/projects/dafs.png");
+}
+#freshmanclass {
+    background-image: url("../img/projects/freshmen.png");
 }
 

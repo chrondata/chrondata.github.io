@@ -43,11 +43,11 @@ body {
   padding-bottom: 1em; }
 
 .logo {
-  max-width: 380px;
+  max-width: 600px;
   margin: auto; }
   @media (max-width: 480px) {
     .logo {
-      max-width: 90%; } }
+      max-width: 325px; } }
 
 section {
   margin-bottom: 4%; }
@@ -106,8 +106,9 @@ li {
   height: 380px;
   margin-bottom: 1em;
   padding: 1.5em 2em 0.5em;
-  margin-left: 5.5%; }
-  @media (max-width: 768px) {
+  margin-left: 5.5%;
+  overflow: hidden; }
+  @media (max-width: 480px) {
     .di-projects-list .proj, .di-alumni-list .proj {
       margin-left: 0; } }
 .di-projects-list .solid-bkg, .di-alumni-list .solid-bkg {
@@ -242,7 +243,7 @@ footer {
 /** IMAGES */
 .portfolio-image {
   height: 205px;
-  width: 900px;
+  width: 363px;
   margin: auto;
   background-repeat: no-repeat; }
   @media (max-width: 768px) {
@@ -250,27 +251,16 @@ footer {
       background-position: top left; } }
 
 #facultydiversity {
-  background-image: url("../img/projects/facultydiversity.png");
-  background-position: top center; }
+  background-image: url("../img/projects/facultydiversity.png"); }
 
 #titleix {
-  background-image: url("../img/projects/titleix.png");
-  background-position: top center; }
+  background-image: url("../img/projects/titleix.png"); }
 
 #giving-trends {
-  background-image: url("../img/projects/nfg.png");
-  background-position: top center !important; }
-
-#endowments {
-  background-image: url("../img/projects/endowments.png"); }
-
-#ncaa {
-  background-image: url("../img/projects/ncaa.png");
-  background-position: top center !important; }
+  background-image: url("../img/projects/nfg.png"); }
 
 #moocs {
-  background-image: url("../img/projects/moocs.png");
-  background-position: 76% !important; }
+  background-image: url("../img/projects/moocs.png"); }
 
 #hag {
   background-image: url("../img/projects/hag.png"); }
@@ -279,22 +269,30 @@ footer {
   background-image: url("../img/projects/alcohol.png"); }
 
 #datachron {
-  background-image: url("../img/projects/datachron.png");
-  background-position: top center; }
+  background-image: url("../img/projects/datachron.png"); }
 
 #minwage {
-  background-image: url("../img/projects/minwage.png");
-  background-position: top right; }
+  background-image: url("../img/projects/minwage.png"); }
 
 #execcomp {
   background-image: url("../img/projects/execcomp.png"); }
 
 #phil400 {
-  background-image: url("../img/projects/phil400.png");
-  background-position: top center !important; }
+  background-image: url("../img/projects/phil400.png"); }
 
 #phil-50 {
-  background-image: url("../img/projects/phil50.png");
-  background-position: top center; }
+  background-image: url("../img/projects/phil50.png"); }
+
+#digitalera {
+  background-image: url("../img/projects/tech50.png"); }
+
+#students50 {
+  background-image: url("../img/projects/students50.png"); }
+
+#dafs {
+  background-image: url("../img/projects/dafs.png"); }
+
+#freshmanclass {
+  background-image: url("../img/projects/freshmen.png"); }
 
 /*# sourceMappingURL=chrondata.css.map */
