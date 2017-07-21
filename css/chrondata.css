@@ -244,11 +244,22 @@ footer {
 .portfolio-image {
   height: 205px;
   width: 363px;
+  max-width: 363px;
+  max-height: 205px;
   margin: auto;
   background-repeat: no-repeat; }
   @media (max-width: 768px) {
     .portfolio-image {
       background-position: top left; } }
+
+#costofliving {
+  background-image: url("../img/projects/livingcosts.png"); }
+
+#congress {
+  background-image: url("../img/projects/congress.png"); }
+
+#foundation-dist {
+  background-image: url("../img/projects/foundations.png"); }
 
 #facultydiversity {
   background-image: url("../img/projects/facultydiversity.png"); }
