@@ -32,7 +32,7 @@ body {
     line-height: 1.5em;
     margin: auto;
     margin-bottom: 0;
-    text-align: justify;
+    text-align: center;
     width: 700px;
     @media (max-width: 480px) {
         font-size: 16px;
@@ -104,10 +104,10 @@ h2 a:focus {
 
 .hed {
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 400;
     text-align: center;
-    margin: 1% auto;
+    margin: 15px auto;
     padding: 1% 0;
 }
 
@@ -115,17 +115,29 @@ li {
     line-height: 1.5em;
 }
 
+.section {
+    margin-bottom: 4em;
+}
 .di-projects-list, .di-alumni-list {
     .proj {
         box-shadow: 1px 1px 1px #cacaca;
         background: #fff;
-        height: 380px;
+        height: 418px;
         margin-bottom: 1em;
         padding: 1.5em 2em 0.5em;
-        margin-left: 5.5%;
         overflow: hidden;
         @media (max-width: 480px) {
             margin-left: 0;
+            height: 280px;
+        }
+        @media (max-width: 768px) {
+            height: 366px;
+        }
+        p {
+            min-height: 2em;
+            @media (max-width: 480px) {
+                 min-height: 4em;
+                }
         }
         
     }
@@ -145,18 +157,17 @@ li {
     }
     
 }
-.di-alumni-list {
+.more-projects {
+
     p {
         margin: 0.5em;
         font-weight: 300;
+        font-size: 1.2em;
     }
     a:hover {
         text-decoration: underline;
     }
     text-align: center;
-     @media (max-width: 480px) {
-        text-align: left;
-     }
 }
 .di-project {
     a {
@@ -164,9 +175,11 @@ li {
         text-decoration: none;
     }
     p {
-        font: 300 1em 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+        font: 300 1.1em 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
     }
     h4 {
+        font-size: 1.5em;
+        margin-bottom: 16px;
         @media (max-width: 480px) {
             font-size: 16px;
         }
@@ -294,68 +307,6 @@ footer {
 
 /** IMAGES */
 .portfolio-image {
-    height: 205px;
-    width: 363px;
-    max-width: 363px;
-    max-height: 205px;
-    margin: auto;
-    background-repeat: no-repeat;
-    @media (max-width: 768px) {
-        background-position: top left;
-    }
-}
-#costofliving {
-    background-image: url("../img/projects/livingcosts.png");
-}
-#congress {
-    background-image: url("../img/projects/congress.png");
-}
-#foundation-dist {
-    background-image: url("../img/projects/foundations.png");
-}
-#facultydiversity {
-    background-image: url("../img/projects/facultydiversity.png");
-}
-#titleix {
-    background-image: url("../img/projects/titleix.png");
-}
-#giving-trends {
-    background-image: url("../img/projects/nfg.png");
-}
-#moocs {
-    background-image: url("../img/projects/moocs.png");
-}
-#hag {
-    background-image: url("../img/projects/hag.png");
-}
-#alcohol {
-    background-image: url("../img/projects/alcohol.png");
-}
-#datachron {
-    background-image: url("../img/projects/datachron.png");
-}
-#minwage {
-    background-image: url("../img/projects/minwage.png");
-}
-#execcomp {
-    background-image: url("../img/projects/execcomp.png");
-}
-#phil400 {
-    background-image: url("../img/projects/phil400.png");
-}
-#phil-50 {
-    background-image: url("../img/projects/phil50.png");
-}
-#digitalera {
-    background-image: url("../img/projects/tech50.png");
-}
-#students50 {
-    background-image: url("../img/projects/students50.png");
-}
-#dafs {
-    background-image: url("../img/projects/dafs.png");
-}
-#freshmanclass {
-    background-image: url("../img/projects/freshmen.png");
+    width: 100%;
 }
 
