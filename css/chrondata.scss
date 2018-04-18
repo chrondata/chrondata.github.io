@@ -14,8 +14,7 @@ body {
 }
 
 .header {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5em auto 4em;
     text-align: center;
     text-transform: uppercase;
     .sm {
@@ -28,15 +27,15 @@ body {
 }
 
 .intro p {
-    font: 300 17px 'Source Sans Pro';
+    font: 400 17px 'Source Sans Pro';
     line-height: 1.5em;
     margin: auto;
     margin-bottom: 0;
     text-align: center;
-    width: 700px;
+    width: 760px;
     @media (max-width: 480px) {
         font-size: 16px;
-        text-align: left;
+        text-align: justify;
         width: 90%;
     }
 }
@@ -57,7 +56,7 @@ body {
 }
 
 section {
-    margin-bottom: 4%;
+    margin-bottom: 2em;
     @media (max-width: 480px) {
         margin-bottom: 10%;
     }
@@ -126,13 +125,18 @@ li {
         margin-bottom: 1em;
         padding: 1.5em 2em 0.5em;
         overflow: hidden;
-        @media (max-width: 480px) {
-            margin-left: 0;
-            height: 280px;
+        opacity: 0.9;
+        &:hover {
+            opacity: 1;
         }
         @media (max-width: 768px) {
             height: 366px;
         }
+        @media (max-width: 480px) {
+            margin-left: 0;
+            height: 280px;
+        }
+        
         p {
             min-height: 2em;
             @media (max-width: 480px) {

@@ -12,8 +12,7 @@ body {
   margin: auto; }
 
 .header {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5em auto 4em;
   text-align: center;
   text-transform: uppercase; }
   .header .sm {
@@ -24,16 +23,16 @@ body {
       margin-bottom: 10%; } }
 
 .intro p {
-  font: 300 17px 'Source Sans Pro';
+  font: 400 17px 'Source Sans Pro';
   line-height: 1.5em;
   margin: auto;
   margin-bottom: 0;
   text-align: center;
-  width: 700px; }
+  width: 760px; }
   @media (max-width: 480px) {
     .intro p {
       font-size: 16px;
-      text-align: left;
+      text-align: justify;
       width: 90%; } }
 
 .container {
@@ -50,7 +49,7 @@ body {
       max-width: 325px; } }
 
 section {
-  margin-bottom: 4%; }
+  margin-bottom: 2em; }
   @media (max-width: 480px) {
     section {
       margin-bottom: 10%; } }
@@ -109,14 +108,17 @@ li {
   height: 418px;
   margin-bottom: 1em;
   padding: 1.5em 2em 0.5em;
-  overflow: hidden; }
+  overflow: hidden;
+  opacity: 0.9; }
+  .di-projects-list .proj:hover, .di-alumni-list .proj:hover {
+    opacity: 1; }
+  @media (max-width: 768px) {
+    .di-projects-list .proj, .di-alumni-list .proj {
+      height: 366px; } }
   @media (max-width: 480px) {
     .di-projects-list .proj, .di-alumni-list .proj {
       margin-left: 0;
       height: 280px; } }
-  @media (max-width: 768px) {
-    .di-projects-list .proj, .di-alumni-list .proj {
-      height: 366px; } }
   .di-projects-list .proj p, .di-alumni-list .proj p {
     min-height: 2em; }
     @media (max-width: 480px) {
